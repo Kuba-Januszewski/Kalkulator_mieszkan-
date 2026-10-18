@@ -1,0 +1,87 @@
+{
+  "algorytm": "K-Nearest Neighbors (k-NN) z wagami rzeczoznawczymi",
+  "data_aktualizacji": "Czerwiec 2024",
+  "zrodlo_danych": "Otodom / Kaggle (apartments_pl_2024_06)",
+  "laczna_probka_top7": 17161,
+  "statystyki_miast": {
+    "Gdańsk": {
+      "mediana_m2": 14166.0,
+      "srednia_m2": 15466.0,
+      "probka": 1888
+    },
+    "Kraków": {
+      "mediana_m2": 16323.0,
+      "srednia_m2": 17112.0,
+      "probka": 3121
+    },
+    "Poznań": {
+      "mediana_m2": 11035.0,
+      "srednia_m2": 11481.0,
+      "probka": 780
+    },
+    "Szczecin": {
+      "mediana_m2": 9235.0,
+      "srednia_m2": 9539.0,
+      "probka": 638
+    },
+    "Warszawa": {
+      "mediana_m2": 17923.0,
+      "srednia_m2": 18508.0,
+      "probka": 6837
+    },
+    "Wrocław": {
+      "mediana_m2": 13093.0,
+      "srednia_m2": 13569.0,
+      "probka": 2225
+    },
+    "Łódź": {
+      "mediana_m2": 8315.0,
+      "srednia_m2": 8536.0,
+      "probka": 1672
+    }
+  },
+  "ewaluacja_modelu_ml": {
+    "Gdańsk": {
+      "R2_score": 0.63,
+      "MAE_PLN": 171041.0,
+      "MAPE_procent": 17.5,
+      "MAPE_baseline": 21.6
+    },
+    "Kraków": {
+      "R2_score": 0.82,
+      "MAE_PLN": 114619.0,
+      "MAPE_procent": 11.9,
+      "MAPE_baseline": 15.8
+    },
+    "Poznań": {
+      "R2_score": 0.71,
+      "MAE_PLN": 78509.0,
+      "MAPE_procent": 11.7,
+      "MAPE_baseline": 14.4
+    },
+    "Szczecin": {
+      "R2_score": 0.74,
+      "MAE_PLN": 77513.0,
+      "MAPE_procent": 13.5,
+      "MAPE_baseline": 19.7
+    },
+    "Warszawa": {
+      "R2_score": 0.82,
+      "MAE_PLN": 134395.0,
+      "MAPE_procent": 12.1,
+      "MAPE_baseline": 16.5
+    },
+    "Wrocław": {
+      "R2_score": 0.71,
+      "MAE_PLN": 84414.0,
+      "MAPE_procent": 10.9,
+      "MAPE_baseline": 15.8
+    },
+    "Łódź": {
+      "R2_score": 0.75,
+      "MAE_PLN": 55424.0,
+      "MAPE_procent": 13.3,
+      "MAPE_baseline": 14.9
+    }
+  }
+}

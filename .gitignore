@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables & secrets (Security)
+.env
+.env.local
+
+# Generated reports & files
+*.pdf
+reports/*.pdf
+!reports/Raport_Wyceny_Warszawa_Przyklad.pdf
+
+# Office and system locks
+~$*
+.DS_Store
+Thumbs.db
